@@ -24,6 +24,7 @@ This article is a step-by-step guide for getting started with Azure Synapse Link
 * Make sure that your SQL Server 2022 database has a master key created.
 
    ```sql
+   USE '<sync database>'
    CREATE MASTER KEY ENCRYPTION BY PASSWORD = '<a new password>'
    ```
 
